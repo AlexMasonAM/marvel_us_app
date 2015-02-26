@@ -46,6 +46,12 @@ gem "jasmine", github: "pivotal/jasmine-gem"
 # Use MongoDB
 gem 'mongoid', '~>4.0.0'
 
+gem "jasmine", github: "pivotal/jasmine-gem"
+
+# CarrierWave Gems for image uploads
+gem 'carrierwave'
+gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+gem 'fog' #required for Amazon S3 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
