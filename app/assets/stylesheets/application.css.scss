@@ -1,0 +1,65 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@font-face {
+  font-family: "Trade-gothic";
+  src:font-url('trade-gothic-bold-1361519978.ttf');
+}
+
+.font-primary {
+  font-family: "Trade-gothic";
+  font-size: 1.5em;
+}
+.subtle-pattern {
+  background-image: url("subtle-pattern-light-01.png");
+  height: 1000px;
+  width: 100%;
+  z-index: -2000px;
+}
+.white {
+  color: white;
+}
+
+
+.container-fluid {
+  padding: 0;
+}
+
+.photos {
+  display: inline-block;
+  position: relative;
+  font-size: 2em;
+  margin-top: 5em;
+  text-align: center;
+}
+.graphic {
+  font-size: 15em;
+  font-style: bold;
+  color: darkgrey;
+}
+.image-upload {
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  background-color: white;
+  border: .5em; 
+  border-radius: 250px;
+}

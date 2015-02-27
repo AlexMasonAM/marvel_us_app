@@ -2,14 +2,26 @@
 <html ng-app>
 <head>
   <title>Be Marvel.Us</title>
-  <%= favicon_link_tag 'bM-02.png' %>
+  <%= favicon_link_tag 'MarvelIcon-B-Red.png' %>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div class="container-fluid subtle-pattern">
+    <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="navbar-left">
+        <a class="navbar-brand" href="/">
+          <%= image_tag "Marvelous-Red-02.png", height: '150' %>
+        </a>
+      </div>
+    </div>
+      <%= yield %>
+    <div class="navbar navbar-default navbar-fixed-bottom navbar-inverse" >
+      <div class="font-primary white">
+        <p>"Data provided by Marvel. © 2014 Marvel"</p>  
+      </div>  
+    </div>  
+  </div>  
 </body>
 </html>
