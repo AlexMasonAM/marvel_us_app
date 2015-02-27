@@ -27,6 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 # gem to work on Marvel's API
 gem 'marvelite'
+# json serializing gem
+gem 'active_model_serializers'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -52,7 +54,9 @@ gem 'mongoid', '~>4.0.0'
 # CarrierWave Gems for image uploads
 gem 'carrierwave'
 gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
-gem 'fog' #required for Amazon S3 
+# gem 'fog' #required for Amazon S3 
+
+gem 'figaro'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
