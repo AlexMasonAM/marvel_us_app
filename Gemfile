@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+# gem to work on Marvel's API
+gem 'marvelite'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -46,7 +48,6 @@ gem "jasmine", github: "pivotal/jasmine-gem"
 # Use MongoDB
 gem 'mongoid', '~>4.0.0'
 
-gem "jasmine", github: "pivotal/jasmine-gem"
 
 # CarrierWave Gems for image uploads
 gem 'carrierwave'
@@ -66,7 +67,8 @@ group :development, :test do
     # Add Factory Girl gem
   gem "factory_girl_rails"
 end
-
+# Rspec testing
+gem 'rspec-rails'
 # needed for Heroku deployment
 gem 'rails_12factor', group: :production
 

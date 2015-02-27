@@ -1,0 +1,2 @@
+class MarvelsController < ApplicationController
+end
