@@ -12,6 +12,7 @@ module Api
       #     # name: "Alex",
       #     name: (result['name']),
       #     thumbnail: (result['thumbnail']['path'].gsub('marvel.dl.llnw.net', 'i.annihil.us') + '/standard_xlarge.jpg')
+      #     resourceUri: (result['resourceURI'])
       #   }
       # end
 

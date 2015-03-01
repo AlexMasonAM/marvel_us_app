@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   namespace :api do
     resources :marvels
     resources :words
+    resources :wordniks
     resources :instagrams
     resources :faces
 
