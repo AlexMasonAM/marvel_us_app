@@ -5,7 +5,7 @@ module Api
       # require 'open-uri'
 
     # These code snippets use an open-source library. http://unirest.io/ruby
-    word_01 = "wonder"
+    word_01 = "make"
 
     response = Unirest.get "https://wordsapiv1.p.mashape.com/words/#{word_01}/rhymes",
      headers:{
@@ -16,7 +16,8 @@ module Api
     response = JSON.parse(response)
     response_all = response['body']['rhymes']['all']
     response_one = response['body']['rhymes']['all'].sample
-    
+    responses = []
+      
     render json: response_all
     end
   end

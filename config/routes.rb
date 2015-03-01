@@ -5,10 +5,10 @@ Rails.application.routes.draw do
 
   namespace :api do
     resources :marvels
-  end
 
-  namespace :api do
     resources :words
+    
+    resources :instagrams
   end
   
   # The priority is based upon order of creation: first created -> highest priority.
