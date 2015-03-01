@@ -23,7 +23,12 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+  Heroku deploy to https://be-marvel-us.herokuapp.com/
+
+* API list
+  
+  Marvel, Face++, WordsApi, Wordnik, Instagram
+
 
 
 Please feel free to use a different markup language if you do not plan to run
