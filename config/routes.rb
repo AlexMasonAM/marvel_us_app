@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get 'home/index'
-  root 'home#index'
+  # get 'home/index'
+  # root 'home#index'
   
+  # ng-app
+  root "application#index"
 
   namespace :api do
     resources :marvels

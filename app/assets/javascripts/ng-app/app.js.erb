@@ -1,0 +1,44 @@
+angular
+  .module('beMarvelApp', ['ngAnimate', 'ui.router', 'ui.bootstrap', 'templates', 'ngResource', 'uiGmapgoogle-maps'])
+  .config(['$httpProvider', function($httpProvider) {
+    $httpProvider.defaults.headers.common['X-CSRF-Token'] =
+      $('meta[name=csrf-token]').attr('content');
+  }])
+  
+  // GOOGLE MAPS MODULE
+  // .config(['uiGmapGoogleMapApiProvider', function(uiGmapGoogleMapApiProvider) {
+  //   uiGmapGoogleMapApiProvider.configure({
+  //       key: <%= "\"#{ENV['GMAP_KEY']}\"" %>,
+  //       v: '3.17',
+  //       libraries: 'weather,geometry,visualization'
+  //   });
+  // }])
+
+  .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
+    $stateProvider
+      .state('home', {
+        url: '/',
+        templateUrl: 'home.html',
+        controller: 'HomeController',
+        controllerAs: 'home',
+        abstract: true
+      })
+      .state('home.about', {
+        url: '',
+        templateUrl: 'about.html'
+      })
+      .state('home.hero', {
+        url: 'hero/:heroid',
+        templateUrl: 'hero-result.html',
+        controller: 'HeroResultController',
+        controllerAs: 'hero'
+      })
+      .state('home.hall-of-heroes', {
+        url: 'hall-of-heroes',
+        templateUrl: 'hall-of-heroes.html',
+        controller: 'HallOfHeroesController',
+        controllerAs: 'hallHeroes'
+      });
+
+  $urlRouterProvider.otherwise('/');
+}]);

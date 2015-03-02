@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+
 ruby '2.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -42,6 +43,8 @@ gem 'unirest'
 gem 'bourbon'
 gem 'bitters'
 
+# Bower gem to incorporate angular and js 
+gem 'bower-rails'
 # Angular Rails!
 gem 'angularjs-rails'
 gem 'angular-rails-templates'
