@@ -1,0 +1,9 @@
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: be-marvel-us  
+  # staging:
+  #   branch: staging
+  #   heroku:
+  #     appname: be-marvel-us 
