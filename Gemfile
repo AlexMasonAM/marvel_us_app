@@ -79,3 +79,5 @@ end
 # needed for Heroku deployment
 gem 'rails_12factor', group: :production
 
+# Sentry, Heroku Addon that emails page errors
+# gem 'sentry-raven'
