@@ -22,12 +22,26 @@
 
 @font-face {
   font-family: "Trade-gothic";
-  src:font-url('trade-gothic-bold-1361519978.ttf');
+  src:font-url('trade_gothic.ttf');
+}
+
+@font-face {
+  font-family: "Badabb";
+  src:font-url('BADABB__.TTF');
+}
+
+@font-face {
+  font-family: "Pagal";
+  src:font-url('Pagal_Font.TTF');
 }
 
 .font-primary {
-  font-family: "Trade-gothic";
+  font-family: "Pagal";
   font-size: 1.5em;
+}
+.font-secondary {
+  font-family: "Badabb";
+  font-size: 2.5em;
 }
 
 .navbar-fixed-top {
@@ -82,7 +96,7 @@
 
 .header-list li:hover{
   font-size: 2.125em;
-  transition: 1;
+  // transition: 1s;
 }
 .header-list li a{
   color: white;
