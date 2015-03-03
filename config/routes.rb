@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  # get 'home/index'
-  # root 'home#index'
-  
   # ng-app
   root "application#index"
 
@@ -11,8 +8,9 @@ Rails.application.routes.draw do
     resources :wordniks
     resources :instagrams
     resources :faces
-
   end
+
+  get '/marvel' => 'marvels#index'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

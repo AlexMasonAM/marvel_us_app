@@ -1,3 +1,38 @@
 // Place all the styles related to the Marvels controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.stripe-dark {
+  width: 75%;
+  height: 500px;
+  background-image: url("stripe-dark-01.png");
+}
+#parallelogram {
+   width: 130px; 
+   height: 75px;
+   background: red;
+   /* Skew */
+   -webkit-transform: skew(20deg); 
+   -moz-transform: skew(20deg); 
+   -o-transform: skew(20deg);
+   transform: skew(20deg);
+}
+#marvel-shape:before {
+   width: 120px; 
+   height: 80px; 
+   background: blue;
+   position: absolute;
+   // -moz-border-radius: 10px; 
+   // -webkit-border-radius: 10px; 
+   // border-radius: 10px;
+}
+#marvel-shape {
+   content:"";
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid blue;
+   border-bottom: 13px solid transparent;
+   margin: 13px 0 0 -25px;
+}
