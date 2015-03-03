@@ -46,7 +46,7 @@ gem 'bitters'
 # Bower gem to incorporate angular and js 
 gem 'bower-rails'
 # Angular Rails!
-gem 'angularjs-rails'
+# gem 'angularjs-rails'
 gem 'angular-rails-templates'
 
 # Jasmine testing for angular.js & javascript
