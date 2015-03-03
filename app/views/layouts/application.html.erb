@@ -8,15 +8,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body ng-app='beMarvelApp'>
-  <div class="container-fluid subtle-pattern">
+  <div class="container-fluid text-center subtle-pattern">
     <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
       <div class="navbar-left font-primary">
-        <a class="navbar-brand" ui-sref="/" href="/">
+        <a class="navbar-brand" ui-sref="/" href="/home">
           <%= image_tag 'Marvel-logo-01.png', height: '75' %>
         </a>
       </div>
       <div class="navbar-right">
-        <ul class="header-list">
+        <ul class="header-list font-primary font-small">
           <li><a ui-sref='home.hall-of-heroes'>Hall of Heroes</a></li>
           <li><a ui-sref='home.about'>About</a></li>
           <li><a ui-sref='home'>Home</a></li>  
@@ -27,8 +27,8 @@
 
       <%= yield %>
 
-    <div class="navbar navbar-default navbar-fixed-bottom navbar-inverse" >
-      <div class="font-secondary white">
+    <div class="navbar navbar-default footer navbar-inverse" >
+      <div class="font-primary white">
         <p>"Data provided by Marvel. © 2014 Marvel"</p> 
       </div>  
     </div>  

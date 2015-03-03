@@ -21,36 +21,43 @@
 @import "marvels";
 
 @font-face {
-  font-family: "Trade-gothic";
-  src:font-url('trade_gothic.ttf');
+  font-family: "TradeGothic";
+  src:font-url('fonts/trade_gothic.ttf');
 }
 
 @font-face {
   font-family: "Badabb";
-  src:font-url('BADABB__.TTF');
+  src:font-url('fonts/BADABB__.TTF');
 }
 
 @font-face {
   font-family: "Pagal";
-  src:font-url('Pagal_Font.TTF');
+  src:font-url('fonts/Pagal_Font.TTF');
 }
 
 .font-primary {
-  font-family: "Pagal";
+  font-family: "TradeGothic";
   font-size: 1.5em;
+  margin: 0px;
 }
 .font-secondary {
   font-family: "Badabb";
   font-size: 2.5em;
+  margin: 0;
 }
 
+.font-small {
+  font-size: .75em;
+}
 .navbar-fixed-top {
   height: 75px;
   position: relative;
+  margin-bottom: 0px;
 }
-.navbar-fixed-bottom {
+.footer {
   height: 75px;
-  postion: relative;
+  position: relative;
+  bottom: 0;
 }
 .subtle-pattern {
   background-image: url("stripe-light-01.png");
@@ -100,4 +107,18 @@
 }
 .header-list li a{
   color: white;
+}
+// BACKGROUND STRIPING
+.stripe-dark {
+  width: 75%;
+  height: 500px;
+  background-image: url("stripe-dark-01.png");
+
+}
+// HOME PAGE STYLING
+
+.home-view {
+  width: 100%;
+  height: 500px;
+  background-image: url("stripe-dark-01.png");
 }
