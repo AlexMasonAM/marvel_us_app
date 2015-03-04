@@ -115,11 +115,22 @@ h1 {
   margin: auto 0;
   background-color: black;
 }
+.footer-middle {
+  transform: translate(0%, 50%)
+}
+
 .ga-logo {
   right: -4em;
   top: -2.25em;
   display: inline-block;
   position: relative;
+  transform: translate(10%,3%);
+}
+
+.marvel-logo img{
+  top: -2.25em;
+  transform: translate(0%,23%);
+  // transform: translate(-25%, 90%);
 }
 .footer-top {
   position: relative;
@@ -131,10 +142,13 @@ h1 {
 .footer-list {
   display: inline-block;
   text-decoration: none;
-  margin: 0 .5em;
+  margin: 1.5em .5em;
   padding-left: 0;
   right: 1em;
 } 
+.footer-list li{
+  display: inline-block;
+}
 
 .header-list li{
   font-size: 2em;

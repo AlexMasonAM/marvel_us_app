@@ -34,17 +34,7 @@
   -moz-box-shadow:    1px 1px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow:         1px 1px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
-// .marvel-shape:after {
-//   position: absolute;
-//   width: 0;
-//   height: 0;
-//   right: -100px;
-//   border-top: 400px dashed red;
-//   border-right: 100px dashed transparent;
-//   background: $color-primary;
-//   margin-top: -3em;
-//   content: "";
-// }
+
 .marvel-shape-02 {
   position: relative;
   width: 100%;
@@ -72,15 +62,34 @@
 }
 
 .parallelogram {
-   width: 150px; 
+   width: 100px; 
    height: 50%;
    background: $color-secondary;
+   display: inline-block;
    /* Skew */
    -webkit-transform: skew(-15deg); 
    -moz-transform: skew(-15deg); 
    -o-transform: skew(-15deg);
    transform: skew(-15deg);
 }
+.parallelogram-long{
+  width: 175px; 
+   height: 50%;
+   background: $color-secondary;
+   display: inline-block;
+   /* Skew */
+   -webkit-transform: skew(-15deg); 
+   -moz-transform: skew(-15deg); 
+   -o-transform: skew(-15deg);
+   transform: skew(-15deg);   
+}
+.parallelogram a{
+  color: $color-primary;  
+}
+.parallelogram-long a{
+  color: $color-primary;  
+}
+
 #marvel-shape:before {
    width: 120px; 
    height: 80px; 
