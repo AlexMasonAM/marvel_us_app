@@ -31,12 +31,6 @@
   content: "";
 }
 
-.shadow {
-  -webkit-box-shadow: 1px 1px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    1px 1px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         1px 1px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-}
-
 .marvel-shape-02 {
   position: relative;
   width: 100%;
@@ -82,6 +76,25 @@
    -moz-transform: skew(-15deg); 
    -o-transform: skew(-15deg);
    transform: skew(-15deg);
+}
+.parallelogram-enter{
+  width:25em; 
+  height: 3em;
+  background: $color-tertiary;
+  display: inline-block;
+  vertical-align: auto;
+  // transform: translate(46.5em, -4em);
+  /* Skew */
+  -webkit-transform: skew(-15deg); 
+  -moz-transform: skew(-15deg); 
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);   
+}
+
+.shadow {
+  -webkit-box-shadow: 1px 1px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 .parallelogram-long{
   width: 175px; 
