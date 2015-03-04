@@ -40,6 +40,7 @@
   font-family: "TradeGothic";
   font-size: 1.5em;
   margin: 0px;
+  font-weight: 100;
 }
 .font-secondary {
   font-family: "Badabb";
@@ -50,26 +51,13 @@
 .font-small {
   font-size: .75em;
 }
-.navbar-fixed-top {
-  height: 75px;
-  position: relative;
-  margin-bottom: 0px;
-}
-.footer {
-  height: 75px;
-  position: relative;
-  bottom: 0;
-}
+
 .subtle-pattern {
   background-image: url("stripe-light-01.png");
   // height: 1000px;
   width: 100%;
   // z-index: -2000px;
 }
-.white {
-  color: white;
-}
-
 
 .container-fluid {
   padding: 0;
@@ -95,6 +83,45 @@
   border: .5em; 
   border-radius: 250px;
 }
+// COLOR variables
+.white {
+  color: $color-primary;
+}
+.red {
+  color: $color-secondary;
+}
+.black {
+  color: $color-tertiary;
+}
+// NAV BARS, headers and footers
+.navbar-fixed-top {
+  height: 50px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.footer {
+  height: 50px;
+  position: relative;
+  border-radius: 0px;
+  bottom: 0;
+  margin-top: 1em;
+  margin: auto 0;
+  background-color: black;
+}
+.ga-logo {
+  right: -4em;
+  top: -2.25em;
+  display: inline-block;
+  position: relative;
+}
+.footer-top {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: .85;
+}
+
 .header-list li{
   font-size: 2em;
   display:  inline-block;
@@ -114,7 +141,11 @@
   width: 100%;
   height: 500px;
   background-image: url("stripe-dark-01.png");
-
+}
+.stripe-light {
+  width: 100%;
+  height: 500px;
+  background-image: url("stripe-light-01.png");
 }
 // HOME PAGE STYLING
 
