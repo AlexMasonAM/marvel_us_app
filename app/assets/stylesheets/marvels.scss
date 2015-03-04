@@ -5,7 +5,8 @@
 
 .marvel-shape {
   width: 85%; 
-  height: 500px;
+  height: 37em;
+  // height: 500px;
   left: 0;
   margin-left: 1em;
   margin-top: 3em;
@@ -13,10 +14,11 @@
   position: relative;
 
 }
-.marvel-shape:after {
+.marvel-shape:before {
   position: absolute;
   width: 250px;
-  height: 500px;
+  height: 37em;
+  // height: 500px;
   margin-top: -3em;
   top: 3em;
   background: $color-primary;
@@ -49,16 +51,25 @@
   transform: skew(-15deg);
 }
 .marvel-shape-02:before {
-   width: 200px; 
-   height: 400px;
-   left: 0;
-   background: $color-primary;
-     -webkit-transform: skew(15deg); 
+  width: 200px; 
+  height: 400px;
+  left: 0;
+  background: $color-primary;
+  -webkit-transform: skew(15deg); 
   -moz-transform: skew(15deg); 
   -o-transform: skew(15deg);
   transform: skew(15deg);
-   position: absolute;
-   content: "";
+  position: absolute;
+  content: "";
+}
+.home-image-large {
+  width: 46em;
+  height: 36em;
+  margin-top: -1.7em;
+  background-color: $color-secondary;
+  background-color: $color-tertiary;
+  margin-left: .5em;
+  margin-bottom: .5em;
 }
 
 .parallelogram {
