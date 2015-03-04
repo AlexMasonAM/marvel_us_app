@@ -64,10 +64,13 @@
   font-size: 3.5em;
 }
 .font-box {
-  transform: translate(46.5em, -4em);
+  transform: translate(46.5em, .00625em);
   width: 24em;
   height: 5em;
   // background-color: $color-primary;
+}
+.font-input {
+  transform: translate(0, 50%);
 }
 .subtle-pattern {
   background-image: url("stripe-light-01.png");
@@ -141,7 +144,7 @@ h1 {
   top: -2.25em;
   display: inline-block;
   position: relative;
-  transform: translate(10%,3%);
+  transform: translate(38%, 3%);
 }
 
 .marvel-logo img{
