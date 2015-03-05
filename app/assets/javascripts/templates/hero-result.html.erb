@@ -3,20 +3,31 @@
     <div class="container">
       <div class="col-xs-4 col-md-offset-1 text-center red">
         <div class="marvel-shape-hero-results">
-          <h1>Hero Result</h1>
+          <div class="result-rect">
+            <p class="font-medium white text-left font-secondary">TOP FACIAL MATCHES</p>
+          </div>  
         </div>  
       </div>  
       <div class="col-xs-7 text-center black">
+        <div class="marvel-shape-hero-after">
+        </div> 
         <div class="marvel-shape-hero">
-          <h1>Hero Result</h1>
-        </div>  
+          <p class="font-secondary font-large white text-center">SUPERNAME:</p>
+          <p class="font-secondary font-xlarge red text-center">METAL BOY</p>
+        </div>
+        <div class="marvel-hero-img">
+          <%= image_tag "supername-metal-boy-01.png", height:"50em"%>
+        </div>
+        <div class="result-hall">
+          <div class="parallelagram-line"></div>
+          <a ui-sref="home.hall-of-heroes">
+            <p class="white font-primary">SAVE SUPERNAME TO THE HALL OF HEROES</p>
+          </a>
+        </div> 
       </div>  
     </div>
-    <div class="play-again"
-      <h2 class="font-primary">PLAY AGAIN</h2>
-      <div class="parallelogram-enter">
-        <a class="font-secondary font-medium white font-input" ui-sref="home.hero">ENTER INSTAGRAM NAME OR PHOTO URL</a>
-      </div>
+    <div class="parallelogram-again">
+      <a class="font-secondary font-medium white font-input" ui-sref="home.hero">ENTER ANOTHER INSTAGRAM NAME </a>
     </div>
   </div>
 </div>

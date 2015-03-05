@@ -203,7 +203,7 @@
   margin-bottom: .5em;
 }
 .marvel-shape-hero-results {
-  width: 100%; 
+  width: 133%; 
   height: 35em;
   // height: 500px;
   left: 0;
@@ -212,29 +212,42 @@
   background: $color-secondary;
   position: relative;  
 }
-.marvel-shape-hero-results:after {
-  width: 500%; 
+.marvel-shape-hero {
   height: 35em;
-  // height: 500px;
-  left: 0;
-  margin-left: -3em;
-  margin-top: 3em;
-  background: $color-primary;
+  left: -4em;
+  width: 100%;
+  margin-left: -4em;
+  margin-top: -35em;
+  border-left: .5em solid $color-primary;
+  // background: $color-tertiary;
+  background-image: url("stripe-dark-01.png");
+  -webkit-transform: skew(-15deg); 
+  -moz-transform: skew(-15deg); 
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);
   position: relative;  
 }
-.marvel-shape-hero {
+.marvel-shape-hero-after {
   width: 100%; 
   height: 35em;
-  // height: 500px;
-  left: 0;
+  transform: translate(0em, 0em);
+  right: 0;
   margin-left: -3em;
   margin-top: 3em;
+  // background: $color-tertiary;
   background-image: url("stripe-dark-01.png");
   // background: $color-tertiary;
 
   position: relative;  
 }
-
+.marvel-shape-hero p{
+  line-height: 1em;
+  transform: translate(0em, .25em);
+}
+.marvel-hero-img img{
+  height: 16em;
+  transform: translate(-5em, -22em);
+}
 .parallelogram {
    width: 100px; 
    height: 50%;
@@ -260,6 +273,9 @@
   // -o-transform: skew(-15deg);
   // transform: skew(-15deg);   
 }
+.parallelogram-enter a:hover{
+  color: $color-secondary;
+}
 .parallelogram-replay{
   width:25em; 
   height: 3em;
@@ -273,6 +289,31 @@
   // -moz-transform: skew(-15deg); 
   // -o-transform: skew(-15deg);
   // transform: skew(-15deg);   
+}
+.parallelogram-replay a:hover{
+  color: $color-secondary; 
+  text-shadow: .075em .075em $color-primary; 
+  text-decoration: none;
+}
+.parallelogram-again{
+  width:25em; 
+  height: 3em;
+  background: $color-tertiary;
+  display: inline-block;
+  vertical-align: auto;
+  // breaks the parallelagram but moves it around
+  transform: translate(-5em, -16.25em)
+  /* Skew */
+  // -webkit-transform: skew(-15deg); 
+  // -moz-transform: skew(-15deg); 
+  // -o-transform: skew(-15deg);
+  // transform: skew(-15deg);   
+}
+.parallelogram-again a:hover{
+  color: $color-secondary; 
+  font-size: 1.9em;
+  // text-shadow: .075em .075em $color-primary; 
+  text-decoration: none;
 }
 .play-again {
   transform: translate(-10.5em, 1.25em);
@@ -299,7 +340,32 @@
 .parallelogram-long a{
   color: $color-primary;  
 }
-
+.result-rect {
+  width: 22em;
+  height: 2.75em;
+  background-color: $color-tertiary;
+}
+.result-rect p{
+  font-size: 2.25em;
+  transform: translate(19%, -3%);
+}
+.result-hall {
+  /* Skew */
+  -webkit-transform: skew(-15deg); 
+  -moz-transform: skew(-15deg); 
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);    ;  
+}
+.result-hall p{
+  font-size: 2.3em;
+  transform: translate(-4.9em, -8.725em);
+}
+.result-hall p:hover{
+  font-size: 2.35em;
+}
+.result-hall a:hover{
+  text-decoration: none;
+}
 #marvel-shape:before {
    width: 120px; 
    height: 80px; 
