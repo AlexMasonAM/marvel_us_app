@@ -63,6 +63,9 @@
 .font-large {
   font-size: 3.5em;
 }
+.font-xlarge {
+  font-size: 5.5em;
+}
 .font-box {
   transform: translate(46.5em, .00625em);
   width: 24em;
@@ -71,6 +74,11 @@
 }
 .font-input {
   transform: translate(0, 50%);
+}
+
+.hall-header p{
+  transform: translate(.75em, .5em);
+  text-shadow: .075em .075em $color-secondary;
 }
 .subtle-pattern {
   background-image: url("stripe-light-01.png");
