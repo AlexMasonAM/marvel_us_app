@@ -1,7 +1,54 @@
 <div ng-controller='AboutController'>
-  <div class="stripe-light">
-    <h1>ABOUT</h1>
-    <p>information about the APP and the developer</p>
-    <p>angular route test {{6*7}}</p>
+<div class="stripe-light">
+    <div class="container">
+      <div class="col-xs-4 col-xs-offset-1 text-center red">
+        <div class="marvel-shape-hero-results">
+          <div class="result-rect">
+            <p class="font-small white text-left font-primary">TOP MATCHES </p>
+            <div class="results-matches-img">
+              <a href="http://marvel.com/characters/29/iron_man" target="blank"><%= image_tag "marvel-image-iron-man-02.png"%></a>
+              <div class="result-text">
+                <p class="font-primary font-large white">36%</p>
+                <p class="font-secondary font-small black font-name">IRON MAN</p>
+              </div>   
+            </div>
+            <div class="results-matches-img">
+              <a href="http://marvel.com/characters/31/jean_grey" target="blank"><%= image_tag "marvel-image-hulk-02.png"%></a>
+              <div class="result-text">  
+                <p class="font-primary font-large white">29%</p>
+                <p class="font-secondary font-small black text-center font-name">HULK</p>
+              </div> 
+            </div>
+            <div class="results-matches-img">
+              <a href="http://marvel.com/characters/14/dr_strange" target="blank"><%= image_tag "marvel-image-storm-02.png"%></a>
+              <div class="result-text">
+                <p class="font-primary font-large white">24%</p>
+                <p class="font-secondary font-small black font-name">STORM</p>
+              </div>  
+            </div>
+          </div>  
+        </div>  
+      </div>  
+      <div class="col-xs-7 text-center black">
+        <div class="marvel-shape-hero-after">
+        </div> 
+        <div class="marvel-shape-hero">
+          <p class="font-secondary font-xlarge red text-center">ABOUT:</p>
+        </div>
+        <div class="about-text">
+          <p class="font-primary font-medium white text-center">
+            "beMarvel.us uses Marvel's, Face ++ and WordsAPI."
+          </p>
+        </div>
+        <div class="result-hall">
+          <a ui-sref="home.hall-of-heroes">
+            <p class="white font-primary">VISIT THE HALL OF HEROES</p>
+          </a>
+        </div> 
+      </div>  
+    </div>
+    <div class="parallelogram-again">
+      <a class="font-secondary font-medium white font-input" ui-sref="home.hero">ENTER ANOTHER INSTAGRAM NAME </a>
+    </div>
   </div>
 </div>

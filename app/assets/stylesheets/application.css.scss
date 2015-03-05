@@ -88,6 +88,17 @@
   margin: -.25em;
   transform: translate(-3.25em, 0em);  
 }
+.about-text{
+  visibility: hidden;
+  width: 7.5em;
+  border-radius: 50em;
+  color: $color-secondary;
+  border: .125em solid $color-primary;
+  transform: translate(-2em, 0em);
+}
+.about-title{
+  transform: translate(.25em, 4em);
+}
 .push-left img{
   transform: translate(-45%, 0);
 }

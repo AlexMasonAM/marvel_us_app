@@ -1,4 +1,16 @@
-@charset "UTF-8";/* line 6, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+@charset "UTF-8";/* line 5, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-list p:hover {
+  text-decoration: none;
+  color: #f41e12;
+  text-shadow: 0.075em 0.075em darkgrey;
+}
+
+/* line 10, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-list a {
+  text-decoration: none;
+}
+
+/* line 13, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape {
   width: 85%;
   height: 37em;
@@ -9,7 +21,7 @@
   position: relative;
 }
 
-/* line 17, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 24, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape:before {
   position: absolute;
   width: 250px;
@@ -26,7 +38,7 @@
   content: "";
 }
 
-/* line 33, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 40, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall {
   width: 73%;
   height: 37em;
@@ -37,7 +49,7 @@
   position: relative;
 }
 
-/* line 45, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 52, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall:before {
   position: absolute;
   width: 250px;
@@ -54,7 +66,7 @@
   content: "";
 }
 
-/* line 62, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 69, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-link {
   position: absolute;
   width: 1em;
@@ -71,13 +83,13 @@
   content: "";
 }
 
-/* line 78, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 85, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-link:hover {
   width: 1.25em;
   box-shadow: 0.5em 0.5em darkgrey;
 }
 
-/* line 84, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 91, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-01 {
   width: 105%;
   height: 4.5em;
@@ -88,7 +100,7 @@
   position: relative;
 }
 
-/* line 96, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 103, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-02 {
   width: 100%;
   height: 4.5em;
@@ -97,7 +109,7 @@
   position: relative;
 }
 
-/* line 108, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 115, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-03 {
   width: 100%;
   height: 4.5em;
@@ -107,7 +119,7 @@
   position: relative;
 }
 
-/* line 120, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 127, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-04 {
   width: 100%;
   height: 4.5em;
@@ -116,7 +128,7 @@
   position: relative;
 }
 
-/* line 132, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 139, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-05 {
   width: 95%;
   height: 4.5em;
@@ -126,7 +138,7 @@
   position: relative;
 }
 
-/* line 162, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 169, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-02 {
   position: relative;
   width: 100%;
@@ -141,7 +153,7 @@
   transform: skew(-15deg);
 }
 
-/* line 175, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 182, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-02:before {
   width: 200px;
   height: 400px;
@@ -155,7 +167,7 @@
   content: "";
 }
 
-/* line 187, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 194, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .home-image-large {
   width: 46em;
   height: 36em;
@@ -168,9 +180,9 @@
   margin-bottom: .5em;
 }
 
-/* line 198, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 205, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hero-results {
-  width: 100%;
+  width: 133%;
   height: 35em;
   left: 0;
   margin-left: -3em;
@@ -179,29 +191,49 @@
   position: relative;
 }
 
-/* line 208, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
-.marvel-shape-hero-results:after {
-  width: 500%;
+/* line 215, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-shape-hero {
   height: 35em;
-  left: 0;
-  margin-left: -3em;
-  margin-top: 3em;
-  background: white;
+  left: -4em;
+  width: 100%;
+  margin-left: -4em;
+  margin-top: -35em;
+  border-left: 0.5em solid white;
+  background-image: url("stripe-dark-01.png");
+  -webkit-transform: skew(-15deg);
+  -moz-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);
   position: relative;
 }
 
-/* line 218, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
-.marvel-shape-hero {
+/* line 230, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-shape-hero-after {
   width: 100%;
   height: 35em;
-  left: 0;
+  transform: translate(0em, 0em);
+  right: 0;
   margin-left: -3em;
   margin-top: 3em;
   background-image: url("stripe-dark-01.png");
   position: relative;
 }
 
-/* line 231, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 243, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-shape-hero p {
+  line-height: 1em;
+  transform: translate(0em, 0.25em);
+}
+
+/* line 247, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-hero-img img {
+  height: 16em;
+  transform: translate(-5em, -23em);
+  border: 0.25em solid white;
+  border-radius: 11em;
+}
+
+/* line 254, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram {
   width: 100px;
   height: 50%;
@@ -214,7 +246,20 @@
   transform: skew(-15deg);
 }
 
-/* line 242, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 265, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-about {
+  width: 10%;
+  height: 36em;
+  background: #f41e12;
+  display: inline-block;
+  /* Skew */
+  -webkit-transform: skew(-15deg);
+  -moz-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+/* line 277, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram-enter {
   width: 25em;
   height: 3em;
@@ -224,12 +269,51 @@
   transform: translate(-8em, 22em);
 }
 
-/* line 256, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 291, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-enter a:hover {
+  color: #f41e12;
+}
+
+/* line 294, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-replay {
+  width: 25em;
+  height: 3em;
+  background: darkgrey;
+  display: inline-block;
+  vertical-align: auto;
+  transform: translate(-5em, 1.75em);
+}
+
+/* line 308, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-replay a:hover {
+  color: #f41e12;
+  text-shadow: 0.075em 0.075em white;
+  text-decoration: none;
+}
+
+/* line 313, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-again {
+  width: 25em;
+  height: 3em;
+  background: black;
+  display: inline-block;
+  vertical-align: auto;
+  transform: translate(-5em, -16.25em);
+}
+
+/* line 327, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-again a:hover {
+  color: #f41e12;
+  font-size: 1.9em;
+  text-decoration: none;
+}
+
+/* line 333, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .play-again {
   transform: translate(-10.5em, 1.25em);
 }
 
-/* line 259, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 336, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .shadow {
   -webkit-box-shadow: 1px 1px 5px 6px #ccc;
   /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -239,7 +323,7 @@
   /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-/* line 264, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 341, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram-long {
   width: 175px;
   height: 50%;
@@ -252,17 +336,77 @@
   transform: skew(-15deg);
 }
 
-/* line 275, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 352, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram a {
   color: white;
 }
 
-/* line 278, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 355, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram-long a {
   color: white;
 }
 
-/* line 282, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 358, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-rect {
+  width: 22em;
+  height: 2.75em;
+  background-color: black;
+}
+
+/* line 363, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-rect p {
+  font-size: 2.25em;
+  transform: translate(19%, -3%);
+}
+
+/* line 367, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-hall {
+  /* Skew */
+  -webkit-transform: skew(-15deg);
+  -moz-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+/* line 374, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-hall p {
+  font-size: 2.3125em;
+  transform: translate(-4.9em, -9.125em);
+}
+
+/* line 378, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-hall p:hover {
+  font-size: 2.325em;
+}
+
+/* line 381, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-hall a:hover {
+  text-decoration: none;
+}
+
+/* line 384, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.results-matches-img img {
+  width: 7.5em;
+  border-radius: 50em;
+  border: 0.125em solid white;
+  transform: translate(-2em, 0em);
+}
+
+/* line 390, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.results-matches-img img:hover {
+  width: 7.625em;
+  margin: .25em;
+  border-radius: 50em;
+  border: 0.25em solid white;
+  position: relative;
+}
+
+/* line 397, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.results-matches-img p {
+  display: inline-block;
+}
+
+/* line 400, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 #marvel-shape:before {
   width: 120px;
   height: 80px;
@@ -270,7 +414,7 @@
   position: absolute;
 }
 
-/* line 291, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 409, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 #marvel-shape {
   content: "";
   position: absolute;
@@ -8837,7 +8981,19 @@ button.close {
     display: none !important;
   }
 }
-/* line 6, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 5, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-list p:hover {
+  text-decoration: none;
+  color: #f41e12;
+  text-shadow: 0.075em 0.075em darkgrey;
+}
+
+/* line 10, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-list a {
+  text-decoration: none;
+}
+
+/* line 13, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape {
   width: 85%;
   height: 37em;
@@ -8848,7 +9004,7 @@ button.close {
   position: relative;
 }
 
-/* line 17, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 24, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape:before {
   position: absolute;
   width: 250px;
@@ -8865,7 +9021,7 @@ button.close {
   content: "";
 }
 
-/* line 33, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 40, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall {
   width: 73%;
   height: 37em;
@@ -8876,7 +9032,7 @@ button.close {
   position: relative;
 }
 
-/* line 45, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 52, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall:before {
   position: absolute;
   width: 250px;
@@ -8893,7 +9049,7 @@ button.close {
   content: "";
 }
 
-/* line 62, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 69, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-link {
   position: absolute;
   width: 1em;
@@ -8910,13 +9066,13 @@ button.close {
   content: "";
 }
 
-/* line 78, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 85, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-link:hover {
   width: 1.25em;
   box-shadow: 0.5em 0.5em darkgrey;
 }
 
-/* line 84, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 91, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-01 {
   width: 105%;
   height: 4.5em;
@@ -8927,7 +9083,7 @@ button.close {
   position: relative;
 }
 
-/* line 96, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 103, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-02 {
   width: 100%;
   height: 4.5em;
@@ -8936,7 +9092,7 @@ button.close {
   position: relative;
 }
 
-/* line 108, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 115, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-03 {
   width: 100%;
   height: 4.5em;
@@ -8946,7 +9102,7 @@ button.close {
   position: relative;
 }
 
-/* line 120, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 127, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-04 {
   width: 100%;
   height: 4.5em;
@@ -8955,7 +9111,7 @@ button.close {
   position: relative;
 }
 
-/* line 132, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 139, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hall-list-05 {
   width: 95%;
   height: 4.5em;
@@ -8965,7 +9121,7 @@ button.close {
   position: relative;
 }
 
-/* line 162, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 169, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-02 {
   position: relative;
   width: 100%;
@@ -8980,7 +9136,7 @@ button.close {
   transform: skew(-15deg);
 }
 
-/* line 175, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 182, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-02:before {
   width: 200px;
   height: 400px;
@@ -8994,7 +9150,7 @@ button.close {
   content: "";
 }
 
-/* line 187, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 194, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .home-image-large {
   width: 46em;
   height: 36em;
@@ -9007,9 +9163,9 @@ button.close {
   margin-bottom: .5em;
 }
 
-/* line 198, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 205, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .marvel-shape-hero-results {
-  width: 100%;
+  width: 133%;
   height: 35em;
   left: 0;
   margin-left: -3em;
@@ -9018,29 +9174,49 @@ button.close {
   position: relative;
 }
 
-/* line 208, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
-.marvel-shape-hero-results:after {
-  width: 500%;
+/* line 215, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-shape-hero {
   height: 35em;
-  left: 0;
-  margin-left: -3em;
-  margin-top: 3em;
-  background: white;
+  left: -4em;
+  width: 100%;
+  margin-left: -4em;
+  margin-top: -35em;
+  border-left: 0.5em solid white;
+  background-image: url("stripe-dark-01.png");
+  -webkit-transform: skew(-15deg);
+  -moz-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);
   position: relative;
 }
 
-/* line 218, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
-.marvel-shape-hero {
+/* line 230, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-shape-hero-after {
   width: 100%;
   height: 35em;
-  left: 0;
+  transform: translate(0em, 0em);
+  right: 0;
   margin-left: -3em;
   margin-top: 3em;
   background-image: url("stripe-dark-01.png");
   position: relative;
 }
 
-/* line 231, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 243, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-shape-hero p {
+  line-height: 1em;
+  transform: translate(0em, 0.25em);
+}
+
+/* line 247, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.marvel-hero-img img {
+  height: 16em;
+  transform: translate(-5em, -23em);
+  border: 0.25em solid white;
+  border-radius: 11em;
+}
+
+/* line 254, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram {
   width: 100px;
   height: 50%;
@@ -9053,7 +9229,20 @@ button.close {
   transform: skew(-15deg);
 }
 
-/* line 242, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 265, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-about {
+  width: 10%;
+  height: 36em;
+  background: #f41e12;
+  display: inline-block;
+  /* Skew */
+  -webkit-transform: skew(-15deg);
+  -moz-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+/* line 277, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram-enter {
   width: 25em;
   height: 3em;
@@ -9063,12 +9252,51 @@ button.close {
   transform: translate(-8em, 22em);
 }
 
-/* line 256, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 291, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-enter a:hover {
+  color: #f41e12;
+}
+
+/* line 294, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-replay {
+  width: 25em;
+  height: 3em;
+  background: darkgrey;
+  display: inline-block;
+  vertical-align: auto;
+  transform: translate(-5em, 1.75em);
+}
+
+/* line 308, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-replay a:hover {
+  color: #f41e12;
+  text-shadow: 0.075em 0.075em white;
+  text-decoration: none;
+}
+
+/* line 313, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-again {
+  width: 25em;
+  height: 3em;
+  background: black;
+  display: inline-block;
+  vertical-align: auto;
+  transform: translate(-5em, -16.25em);
+}
+
+/* line 327, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.parallelogram-again a:hover {
+  color: #f41e12;
+  font-size: 1.9em;
+  text-decoration: none;
+}
+
+/* line 333, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .play-again {
   transform: translate(-10.5em, 1.25em);
 }
 
-/* line 259, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 336, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .shadow {
   -webkit-box-shadow: 1px 1px 5px 6px #ccc;
   /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -9078,7 +9306,7 @@ button.close {
   /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-/* line 264, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 341, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram-long {
   width: 175px;
   height: 50%;
@@ -9091,17 +9319,77 @@ button.close {
   transform: skew(-15deg);
 }
 
-/* line 275, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 352, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram a {
   color: white;
 }
 
-/* line 278, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 355, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 .parallelogram-long a {
   color: white;
 }
 
-/* line 282, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 358, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-rect {
+  width: 22em;
+  height: 2.75em;
+  background-color: black;
+}
+
+/* line 363, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-rect p {
+  font-size: 2.25em;
+  transform: translate(19%, -3%);
+}
+
+/* line 367, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-hall {
+  /* Skew */
+  -webkit-transform: skew(-15deg);
+  -moz-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);
+}
+
+/* line 374, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-hall p {
+  font-size: 2.3125em;
+  transform: translate(-4.9em, -9.125em);
+}
+
+/* line 378, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-hall p:hover {
+  font-size: 2.325em;
+}
+
+/* line 381, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.result-hall a:hover {
+  text-decoration: none;
+}
+
+/* line 384, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.results-matches-img img {
+  width: 7.5em;
+  border-radius: 50em;
+  border: 0.125em solid white;
+  transform: translate(-2em, 0em);
+}
+
+/* line 390, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.results-matches-img img:hover {
+  width: 7.625em;
+  margin: .25em;
+  border-radius: 50em;
+  border: 0.25em solid white;
+  position: relative;
+}
+
+/* line 397, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+.results-matches-img p {
+  display: inline-block;
+}
+
+/* line 400, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 #marvel-shape:before {
   width: 120px;
   height: 80px;
@@ -9109,7 +9397,7 @@ button.close {
   position: absolute;
 }
 
-/* line 291, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
+/* line 409, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/marvels.scss */
 #marvel-shape {
   content: "";
   position: absolute;
@@ -9130,8 +9418,8 @@ button.close {
   src: url(/assets/fonts/BADABB__-9c5fafea799dc48efd0567b7bb7ded9b.TTF);
 }
 @font-face {
-  font-family: "Pagal";
-  src: url(/assets/fonts/Pagal_Font-e7bbf219b2163caaa16bc1fe742ccf47.TTF);
+  font-family: "SfComic";
+  src: url(/fonts/fonts/sf_comic.TTF);
 }
 /* line 39, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .font-primary {
@@ -9148,17 +9436,24 @@ button.close {
   margin: 0;
 }
 
-/* line 51, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 50, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+.font-tertiary {
+  font-family: "Pagal";
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* line 56, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .font-small {
   font-size: .75em;
 }
 
-/* line 54, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 59, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .font-medium {
   font-size: 1.75em;
 }
 
-/* line 57, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 62, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .font-medium span {
   font-family: "Badabb";
   font-size: 2.25em;
@@ -9166,51 +9461,78 @@ button.close {
   color: #f41e12;
 }
 
-/* line 63, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 68, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .font-large {
   font-size: 3.5em;
 }
 
-/* line 66, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 71, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .font-xlarge {
   font-size: 5.5em;
 }
 
-/* line 69, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 74, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .font-box {
   transform: translate(46.5em, 0.00625em);
   width: 24em;
   height: 5em;
 }
 
-/* line 75, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 80, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .font-input {
   transform: translate(0, 50%);
 }
 
-/* line 78, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
-.push-left {
-  transform: translate(40%, 0);
+/* line 83, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+.font-name {
+  display: block;
+  transform: translate(-10%, -10%);
 }
 
-/* line 81, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 87, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+.result-text {
+  margin: -.25em;
+  transform: translate(-3.25em, 0em);
+}
+
+/* line 91, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+.about-text {
+  visibility: hidden;
+  width: 7.5em;
+  border-radius: 50em;
+  color: #f41e12;
+  border: 0.125em solid white;
+  transform: translate(-2em, 0em);
+}
+
+/* line 99, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+.about-title {
+  transform: translate(0.25em, 4em);
+}
+
+/* line 102, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+.push-left img {
+  transform: translate(-45%, 0);
+}
+
+/* line 105, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .hall-header p {
   transform: translate(0.75em, 0.5em);
   text-shadow: 0.075em 0.075em #f41e12;
 }
 
-/* line 85, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 109, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .subtle-pattern {
   background-image: url("stripe-light-01.png");
   width: 100%;
 }
 
-/* line 92, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 116, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .container-fluid {
   padding: 0;
 }
 
-/* line 96, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 120, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .photos {
   display: inline-block;
   position: relative;
@@ -9219,14 +9541,14 @@ button.close {
   text-align: center;
 }
 
-/* line 103, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 127, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .graphic {
   font-size: 15em;
   font-style: bold;
   color: darkgrey;
 }
 
-/* line 108, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 132, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .image-upload {
   display: inline-block;
   width: 10em;
@@ -9236,39 +9558,39 @@ button.close {
   border-radius: 250px;
 }
 
-/* line 116, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 140, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 120, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 144, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 h1 {
   margin-top: 0;
 }
 
-/* line 124, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 148, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .white {
   color: white;
 }
 
-/* line 127, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 151, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .red {
   color: #f41e12;
 }
 
-/* line 130, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 154, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .black {
   color: black;
 }
 
-/* line 134, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 158, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .navbar-fixed-top {
   height: 50px;
   position: relative;
   margin-bottom: 0px;
 }
 
-/* line 139, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 163, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .footer {
   height: 50px;
   position: relative;
@@ -9279,12 +9601,12 @@ h1 {
   background-color: black;
 }
 
-/* line 148, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 172, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .footer-middle {
   transform: translate(0%, 50%);
 }
 
-/* line 152, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 176, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .ga-logo {
   right: -4em;
   top: -2.25em;
@@ -9293,13 +9615,13 @@ h1 {
   transform: translate(38%, 3%);
 }
 
-/* line 160, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 184, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .marvel-logo img {
   top: -2.25em;
   transform: translate(0%, 23%);
 }
 
-/* line 165, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 189, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .footer-top {
   position: relative;
   width: 100%;
@@ -9307,7 +9629,7 @@ h1 {
   opacity: .85;
 }
 
-/* line 172, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 196, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .footer-list {
   display: inline-block;
   text-decoration: none;
@@ -9317,12 +9639,12 @@ h1 {
   transform: translate(7%, 12%);
 }
 
-/* line 180, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 204, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .footer-list li {
   display: inline-block;
 }
 
-/* line 184, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 208, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .header-list li {
   font-size: 2em;
   display: inline-block;
@@ -9330,31 +9652,31 @@ h1 {
   padding: .25em;
 }
 
-/* line 191, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 215, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .header-list li:hover {
   font-size: 2.125em;
 }
 
-/* line 195, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 219, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .header-list li a {
   color: white;
 }
 
-/* line 199, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 223, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .stripe-dark {
   width: 100%;
-  height: 600px;
+  height: 650px;
   background-image: url("stripe-dark-01.png");
 }
 
-/* line 204, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 228, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .stripe-light {
   width: 100%;
-  height: 600px;
+  height: 650px;
   background-image: url("stripe-light-01.png");
 }
 
-/* line 211, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
+/* line 235, /Users/AlexMason/Dev/GA-WDI/project04/marvel_us_app/app/assets/stylesheets/application.css.scss */
 .home-view {
   width: 100%;
   height: 600px;
