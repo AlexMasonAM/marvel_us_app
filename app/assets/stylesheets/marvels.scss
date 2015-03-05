@@ -31,7 +31,7 @@
   content: "";
 }
 .marvel-shape-hall {
-  width: 72%; 
+  width: 73%; 
   height: 37em;
   // height: 500px;
   left: 0;
@@ -58,6 +58,25 @@
   -o-transform: skew(-15deg);
   transform: skew(-15deg);
   content: "";
+}
+.marvel-shape-link {
+  position: absolute;
+  width: 1em;
+  height: 37em;
+  // height: 500px;
+  margin-top: -3em;
+  top: 3em;
+  background: $color-secondary;
+  right: -10%;
+    /* Skew */
+  -webkit-transform: skew(-15deg); 
+  -moz-transform: skew(-15deg); 
+  -o-transform: skew(-15deg);
+  transform: skew(-15deg);
+  content: "";
+}
+.marvel-shape-link a:hover{
+  box-shadow: .5em .5em $color-tertiary;  
 }
 
 .marvel-shape-02 {
