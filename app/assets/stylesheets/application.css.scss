@@ -80,6 +80,14 @@
 .font-input {
   transform: translate(0, 50%);
 }
+.font-name {
+  display: block;
+  transform: translate(-10%, -10%);
+}
+.result-text{
+  margin: -.25em;
+  transform: translate(-3.25em, 0em);  
+}
 .push-left img{
   transform: translate(-45%, 0);
 }

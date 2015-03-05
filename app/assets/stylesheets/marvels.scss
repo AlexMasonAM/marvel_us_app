@@ -246,7 +246,10 @@
 }
 .marvel-hero-img img{
   height: 16em;
-  transform: translate(-5em, -22em);
+  transform: translate(-5em, -23em);
+  border: 0.25em solid white;
+  border-radius: 11em;
+
 }
 .parallelogram {
    width: 100px; 
@@ -357,14 +360,30 @@
   transform: skew(-15deg);    ;  
 }
 .result-hall p{
-  font-size: 2.3em;
-  transform: translate(-4.9em, -8.725em);
+  font-size: 2.3125em;
+  transform: translate(-4.9em, -9.125em);
 }
 .result-hall p:hover{
-  font-size: 2.35em;
+  font-size: 2.325em;
 }
 .result-hall a:hover{
   text-decoration: none;
+}
+.results-matches-img img{
+  width: 7.5em;
+  border-radius: 50em;
+  border: .125em solid $color-primary;
+  transform: translate(-2em, 0em);
+}
+.results-matches-img img:hover{
+  width: 7.625em;
+  margin: .25em;
+  border-radius: 50em;
+  border: .25em solid $color-primary;
+  position: relative;
+}
+.results-matches-img p{
+  display: inline-block;
 }
 #marvel-shape:before {
    width: 120px; 
