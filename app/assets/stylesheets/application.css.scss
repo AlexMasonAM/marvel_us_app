@@ -75,7 +75,9 @@
 .font-input {
   transform: translate(0, 50%);
 }
-
+.push-left {
+  transform: translate(40%, 0);
+}
 .hall-header p{
   transform: translate(.75em, .5em);
   text-shadow: .075em .075em $color-secondary;
