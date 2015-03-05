@@ -2,7 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "variables";
-
+.marvel-list p:hover {
+  text-decoration: none;
+  color: $color-secondary;
+  text-shadow: .075em .075em $color-quaterary;
+}
+.marvel-list a {
+  text-decoration: none;
+}
 .marvel-shape {
   width: 85%; 
   height: 37em;
